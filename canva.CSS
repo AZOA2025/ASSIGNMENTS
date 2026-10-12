@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.canva {
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(#8c2cfe, #7f2efd, #4c46ec, #2eb1c3, #ace8f8, #eaebff);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 70px;
+
+}
+
+header {
+    padding-top: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    width: 100px;
+    height: 30px;
+    margin: auto;
+
+}
+
+.button {
+    color: #f6e6ff;
+    border: none;
+    background-color: #8c2cfe;
+    cursor: pointer;
+
+}
+
+.details {
+    border: none;
+    background-color: #8c2cfe;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    white-space: nowrap;
+    justify-content: center;
+    background-color: #8c2cfe;
+    color: #fff2ff;
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid grey;
+}
+
+.signup:hover {
+    background-color: #9f4cfe;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* white-space: nowrap; */
+    border-radius: 10px;
+    background-color: #f3eaff;
+    text-decoration: none;
+    width: 70px;
+    height: 30px;
+    color: black;
+}
+
+.login:hover {
+    background-color: white;
+}
+
+.logo {
+    text-align: left;
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    padding: 0px 32px;
+}
+
+.canvaHeading {
+    font-size: 64px;
+    font-weight: 400;
+    /* padding-top: 100px; */
+}
+
+.text {
+    color: #f8e4ff;
+}
+
+.start {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #ecf0fc;
+    border: none;
+    cursor: pointer;
+}
+
+.start:hover {
+    background-color: white;
+}
+
+.text2 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.motherDiv {
+    line-height: 1px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.images {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+
+}

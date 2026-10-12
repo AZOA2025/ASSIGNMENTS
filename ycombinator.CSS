@@ -1,0 +1,164 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f5f5ed;
+}
+
+.section {
+    background-color: #f5f5ed;
+    width: 100%;
+    height: 600px;
+}
+
+.head {
+    padding-top: 15px;
+}
+.navBar {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftNav {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    gap: 40px;
+}
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.y_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 16px;
+}
+
+.rightNav {
+    width: 40%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    gap: 40px; 
+}
+
+.details {
+    display: flex;
+    justify-self: end;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    color: #16140F;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.login:hover {
+    color: #a1a199;
+}
+.apply {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    font-family: "Source Serif 4", serif;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.apply:hover {
+    background-color: #31312f;
+}
+
+.heading {
+    font-weight: 400;
+    font-size: 80px;
+    font-family: "Source Serif 4", serif;
+    text-align: center;
+    line-height: 90px;
+}
+.special {
+    font-style: italic;
+}
+
+.sup {
+    font-size: 18px;
+}
+
+.comment {
+    display: block;
+    justify-self: center;
+}
+
+.article {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: left;
+    line-height: 30px;
+}
+
+.special2 {
+    font-style: normal;
+}
+.cite {
+    display: flex;
+    justify-content: end;
+}
+
+.section2 {
+    background-color: #f5f5ed;
+    width: 100%;
+ 
+}
+
+.heading2 {
+    font-family: "Source Serif 4", serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.background {
+    background-image: url(https://bookface-static.ycombinator.com/assets/ycdc/partners/garry-tan-now-compressed-285e8d782cad23c62dadac1cdde3a87305c1f92dd65d45d7f3bec2b08b70e136.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500PX;
+    width: 400PX;
+    border-radius: 20PX;
+    text-decoration: none;
+}
+
+.background span {
+    color: white;
+    text-decoration: none;
+
+}
+.background p {
+    color: white;
+    text-decoration: none;
+}
+

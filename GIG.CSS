@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+.gig {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(90deg, #f5dfe0, #fdfdfd, #f8e6e6);
+}
+
+.text {
+    background-color: red;
+    color: white;
+    height: 25px;
+    width: 100%;
+    font-weight: 300px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    background-color: #df343a;
+    font-size: 16px;
+}
+
+.header {
+    padding-top: 10px;
+    /* border-radius: 20px; */
+    width: 92%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.gig_header {
+    background-color: #262523;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 75px;
+    border-radius: 40px;
+    padding: 0 30px;
+}
+
+.gig_logo {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .gig_logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.links {
+    display: block;
+    align-items: center;
+}
+
+
+.link {
+    color: #fdfdfd;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+.head_right_nav {
+    display: flex;
+    align-items: center;
+}
+
+.navtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 20px;
+}
+
+
+.link2 {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    margin: auto;
+}
+
+.quick {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.track {
+    background-color: #c32025;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_us {
+    background-color: #262523;
+    border: 1px solid #fdfdfd;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.profileicon {
+    width: 80px;
+    height: 40px;
+    background-color: #c32025;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.hero_problem {
+    display: flex;
+
+}
+
+.herotexts {
+    padding-left: 30px;
+
+}
+
+.herotext {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+
+.special {
+    color: #c32025;
+}
+
+.text2 {
+    color: #444444;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.sign_up {
+    font-size: 14px;
+    color: white;
+    border-radius: 40px;
+    background-color: #c32025;
+    border: 1px solid #c32025;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 20px;
+    width: fit-content;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.hero_image {
+    display: flex;
+    justify-content: end;
+    width: 95%;
+    height: 500px;
+    padding-top: 45px;
+}
+
+.section {
+    width: 100%;
+    height: 200px;
+    padding: 60px 60px;
+}
+
+.logistics {
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.special2 {
+    color: #c32025;
+}
+
+.text3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.section3 {
+    /* height: 600px; */
+    width: 100%;
+    padding: 0 60px;
+}
+
+.motherDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div {
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shipping {
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.text4 {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    line-height: 25px;
+}
+
+.card {
+    width: 550px;
+    height: 500px;
+    background: linear-gradient(225deg, #d1d9f6, #f5ebec, #d4dbf5);
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.text5 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.image {
+    height: 250px;
+    width: 480px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sisterDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.card2 {
+    background: linear-gradient(225deg, #e6e4f2, #f5eaee, #dbddf2);
+    height: 550px;
+    width: 520px;
+    border-radius: 30px;
+    padding: 30px 30px;
+    margin-bottom: 60px;
+}
+
+.export {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.card_text {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.cardimg {
+    width: 450px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.card3 {
+    width: 600px;
+    height: 550px;
+    padding: 30px 30px;
+}
+
+.nigeria {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.shop_text {
+    margin-bottom: 30px;
+}
+
+.learn_more {
+    width: fit-content;
+    padding: 8px 20px;
+    background-color: #c32025;
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    align-items: center;
+    border: 1px solid #c32025;
+    text-decoration: none;
+}
+
+.black {
+    background: url(https://giglogistics.com/wp-content/themes/healing/assets/images/bt_bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+
+.brotherDiv {
+    padding: 60px 60px;
+}
+
+.business {
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+
+.special3 {
+    color: #c32025;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.logics {
+    color: white;
+}
+
+.icons {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.last {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.paragraph {
+    font-size: 16px;
+    font-weight: 300;
+}

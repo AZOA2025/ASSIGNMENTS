@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    /* max-width: 100%;
+    margin: 0;
+    padding: 0; */
+    
+}
+
+.emailBackground {
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    background-image: url(hero_standard_1920x1080_temp_solution_1x.webp);
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0 0.9);
+    background-blend-mode: overlay;
+    background-size: cover;
+    text-align: center;
+    color: white;
+  
+}
+.headingText {
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+      padding-top: 5px;
+    line-height: 1.0;
+    font-size: 60px;
+    font-weight: 500;
+}
+.yellowText {
+    color: #ffe01b;
+    font-style: italic;
+}
+.drive {
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+.signUp {
+    height: 50px;
+    width: 300px;
+    background-color: #ffe01b;
+    color: black;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.signUp:hover {
+    background-color: #ffd500;
+}
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 40px;
+}
+.reviewTexts {
+   align-items: center;
+   font-size: 20px;
+}
+.images{
+    /* gap: 40px; */
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.img {
+    padding-left: 40px;
+}
