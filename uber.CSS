@@ -9,7 +9,7 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
-    height: 2000px;
+    height: 4000px;
 }
 
 nav {
@@ -308,7 +308,7 @@ image a:hover {
 }
 
 .next {
-    padding: 30px 40px;
+    /* padding: 30px 40px; */
 }
 
 .explore {
@@ -333,18 +333,14 @@ image a:hover {
 
 .boxes {
     background-color: #292929;
-    width: fit-content;
-    max-width: 400px;
-    height: 29vh;
+    width: 28vw;
+    height: auto;
     color: white;
-    padding: 10px 10px;
+    padding: 15px 20px;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
-    /* flex-direction: column; */
-    /* align-items: center; */
-    justify-content: space-between;
 }
 
 
@@ -352,22 +348,17 @@ image a:hover {
     text-decoration: none;
     color: white;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    padding: 16px;
 }
 
-/* .cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-} */
-
-.sister-div {
+.cards {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .bottom {
+    display: inline-block;
     padding: 8px 10px;
     background-color: white;
     color: black;
@@ -375,4 +366,116 @@ image a:hover {
     border: none;
     border-radius: 20px;
     text-decoration: none;
+}
+
+.bottom:hover {
+    background-color: #ebebeb;
+}
+
+.loader {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.request {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.container {
+    width: 350px;
+    height: auto;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.sister-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.planning {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.plans {
+    width: 450px;
+}
+
+.from {
+    margin-bottom: 30px;
+}
+
+.lagos {
+    width: fit-content;
+    padding: 15px 20px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.lagos:hover {
+    background-color:  #ebebeb;
+}
+
+.plan-div {
+    display: flex;
+    align-items: center;
+    margin: 150px 0;
+    justify-content: space-between;
+    /* gap: 24px; */
+}
+
+video {
+    width: 50%;
+    height: auto;
+}
+
+.more-ways {
+    display: flex;
+}
+
+.container-2 {
+    width: 400px;
+}
+
+.your-trip {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.your-ride {
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.head-div {
+    display: flex;
+    gap: 35px;
+}
+
+.reserve {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: white;
+    text-underline-offset: 10px;
+    text-decoration-color: #c9c9c9;
+}
+
+.reserve:hover {
+    text-decoration-color: white;
 }
