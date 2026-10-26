@@ -407,7 +407,6 @@ nav {
   }
 }
 
-
 .ebay {
   position: absolute;
   bottom: 0;
@@ -587,74 +586,73 @@ nav {
 }
 
 .mother-container {
-    display: flex;
-    gap: 12px;
-    overflow: hidden;
+  display: flex;
+  gap: 12px;
+  overflow: hidden;
 }
 
 .containers {
-    background-color: #f8f8f8;
-    width: 40vw;
-    height: 60vh;
-    border: none;
-    border-radius: 20px;
-    padding: 40px;
-    position: relative;
-    min-width: 320px;
-    display: flex;
-    gap: 20px;
-    margin-right: 24px;
+  background-color: #f8f8f8;
+  width: 40vw;
+  height: 60vh;
+  border: none;
+  border-radius: 20px;
+  padding: 40px;
+  position: relative;
+  min-width: 320px;
+  display: flex;
+  gap: 20px;
+  margin-right: 24px;
 }
 
 .testimony {
-    color: #1B507E;
-    font-size: 27px;
-    font-weight: 400;
+  color: #1b507e;
+  font-size: 27px;
+  font-weight: 400;
 }
 
 .containers h3 {
-    color: 
-rgb(27, 80, 126);
-font-size: 21px;
-font-weight: 400;
-display: flex;
-flex-direction: column;
-justify-content: center;
-gap: 60px;
-align-items: center;
+  color: rgb(27, 80, 126);
+  font-size: 21px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
 }
 
 .app {
-    font-size: 16px;
-    font-weight: 400;
-    color: #1B507E;
-    margin-top: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1b507e;
+  margin-top: 0;
 }
 
 .same-line {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 200px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 30px;
 }
 
 .same-line img {
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    justify-self: end;
-    flex-shrink: 0;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  justify-self: end;
+  flex-shrink: 0;
 }
 
 .testimony-name {
-    margin-bottom: 10px;
-    font-size: 16px;
-    font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .track {
@@ -679,34 +677,72 @@ align-items: center;
   transition: transform 0.4s ease;
 }
 
-.first-box:hover .virtual-img{
+.first-box:hover .virtual-img {
   transform: scale(1.03);
 }
 
-
 /* ===== TABLETS: 700px to 1100px ===== */
 @media (min-width: 700px) and (max-width: 1100px) {
-
   /* navbar */
-  nav { height: 90px; padding: 0 28px; }
-  nav > a img { width: 160px; }
-  .links { gap: 24px; }
-  .name { font-size: 14px; }
-  .rightNav { gap: 10px; }
-  .rightNav button { padding: 12px 20px; font-size: 14px; }
+  nav {
+    height: 90px;
+    padding: 0 28px;
+  }
+  nav > a img {
+    width: 160px;
+  }
+  .links {
+    gap: 24px;
+  }
+  .name {
+    font-size: 14px;
+  }
+  .rightNav {
+    gap: 10px;
+  }
+  .rightNav button {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
 
   /* dropdown menus */
-  .dropdown { width: 92%; height: auto; padding: 24px; }
-  .products { width: 26vw; height: auto; }
-  .dropdown-2 { width: 220px; height: auto; }
+  .dropdown {
+    width: 92%;
+    height: auto;
+    padding: 24px;
+  }
+  .products {
+    width: 26vw;
+    height: auto;
+  }
+  .dropdown-2 {
+    width: 220px;
+    height: auto;
+  }
 
   /* hero */
-  .hero { min-height: auto; padding: 60px 24px 80px; }
+  .hero {
+    min-height: auto;
+    padding: 60px 24px 80px;
+  }
   .hero-content,
-  .hero-header { text-align: center; }
-  .hero-head { font-size: 50px; max-width: 640px; margin: 24px auto 0; }
-  .get { font-size: 19px; max-width: 560px; margin: 24px auto 0; }
-  .hero-anchor { padding: 24px 90px; margin-top: 36px; }
+  .hero-header {
+    text-align: center;
+  }
+  .hero-head {
+    font-size: 50px;
+    max-width: 640px;
+    margin: 24px auto 0;
+  }
+  .get {
+    font-size: 19px;
+    max-width: 560px;
+    margin: 24px auto 0;
+  }
+  .hero-anchor {
+    padding: 24px 90px;
+    margin-top: 36px;
+  }
 
   /* feature sections */
   .images-section {
@@ -714,7 +750,9 @@ align-items: center;
     margin: 0 auto;
     padding: 30px 20px;
   }
-  .endless { font-size: 48px; }
+  .endless {
+    font-size: 48px;
+  }
 
   .first-box {
     height: auto;
@@ -724,8 +762,12 @@ align-items: center;
     padding: 32px 32px 0;
     overflow: hidden;
   }
-  .first-box div { width: 100%; }
-  .text-area h3 { font-size: 36px; }
+  .first-box div {
+    width: 100%;
+  }
+  .text-area h3 {
+    font-size: 36px;
+  }
 
   .phone-img,
   .virtual-img {
@@ -735,7 +777,10 @@ align-items: center;
   }
   .gadgets,
   .second-div,
-  .big-boss { flex-direction: column; height: auto; }
+  .big-boss {
+    flex-direction: column;
+    height: auto;
+  }
 
   /* featured on */
   .aligned-images {
@@ -743,12 +788,21 @@ align-items: center;
     justify-content: center;
     gap: 24px 40px;
   }
-  .aligned-images img { height: 36px; width: auto; }
+  .aligned-images img {
+    height: 36px;
+    width: auto;
+  }
 
   /* testimonials */
-  .containers { width: 340px; margin-right: 20px; min-height: 340px; }
-  .testimony { font-size: 22px; }
-  /* the two-box rows stack into one column */ 
+  .containers {
+    width: 340px;
+    margin-right: 20px;
+    min-height: 340px;
+  }
+  .testimony {
+    font-size: 22px;
+  }
+  /* the two-box rows stack into one column */
   .big-boss {
     flex-direction: column;
     gap: 24px;
@@ -766,7 +820,9 @@ align-items: center;
     flex-direction: column;
   }
 
-  .text-area { padding: 32px 28px 0; }
+  .text-area {
+    padding: 32px 28px 0;
+  }
 
   /* images sit at the bottom of each card, centered */
   .ebay,
@@ -790,23 +846,40 @@ align-items: center;
     gap: 24px;
     padding: 32px 28px 0;
   }
-  .gadgets div { width: 100%; }
-  .gadgets div h3 { font-size: 36px; }
-  .gadgets div p { font-size: 18px; line-height: 28px; }
+  .gadgets div {
+    width: 100%;
+  }
+  .gadgets div h3 {
+    font-size: 36px;
+  }
+  .gadgets div p {
+    font-size: 18px;
+    line-height: 28px;
+  }
 
   /* Featured on */
-  .amazing { margin-top: 60px; gap: 24px; }
+  .amazing {
+    margin-top: 60px;
+    gap: 24px;
+  }
 
   /* testimonials */
-  .testimonial { padding: 0 24px; }
-  .testimonial h2 { font-size: 44px; }
+  .testimonial {
+    padding: 0 24px;
+  }
+  .testimonial h2 {
+    font-size: 44px;
+  }
 
   .containers {
     height: auto;
     min-height: 340px;
     padding: 28px;
   }
-  .testimony { font-size: 22px; line-height: 1.4; }
+  .testimony {
+    font-size: 22px;
+    line-height: 1.4;
+  }
 
   /* wider column, less empty space at the sides */
   .images-section {
@@ -826,9 +899,14 @@ align-items: center;
 
   /* bigger text */
   .text-area h3,
-  .gadgets div h3 { font-size: 40px; }
+  .gadgets div h3 {
+    font-size: 40px;
+  }
   .text-area p,
-  .gadgets div p { font-size: 18px; line-height: 28px; }
+  .gadgets div p {
+    font-size: 18px;
+    line-height: 28px;
+  }
 
   /* push every image to the bottom of its card */
   .ebay,
@@ -857,23 +935,41 @@ align-items: center;
     margin-right: 0;
     max-width: 400px;
   }
-
 }
 
 /* ===== SMALLER TABLETS: 700px to 860px (fits the navbar) ===== */
 @media (min-width: 700px) and (max-width: 860px) {
-  nav { padding: 0 20px; }
-  nav > a img { width: 130px; }
-  .links { gap: 16px; }
-  .name { font-size: 13px; }
-  .rightNav button { padding: 10px 14px; font-size: 13px; }
-  .hero-head { font-size: 44px; }
+  nav {
+    padding: 0 20px;
+  }
+  nav > a img {
+    width: 130px;
+  }
+  .links {
+    gap: 16px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  .rightNav button {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+  .hero-head {
+    font-size: 44px;
+  }
 }
 
 /* ===== LARGE TABLETS IN LANDSCAPE: 1101px to 1366px ===== */
 @media (min-width: 1101px) and (max-width: 1366px) {
-  nav { padding: 0 48px; }
-  .hero-head { font-size: 60px; }
-  .first-box { padding-left: 32px; padding-right: 32px; }
+  nav {
+    padding: 0 48px;
+  }
+  .hero-head {
+    font-size: 60px;
+  }
+  .first-box {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
-
